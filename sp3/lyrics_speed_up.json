@@ -1,0 +1,577 @@
+[
+    {
+        "sentence": "Mon diamant c'est de leau comme de l'Evian j'suis comme le cuirasse t'es comme le deviant ",
+        "words": [
+            {
+                "startTimeMs": "0",
+                "words": "MON",
+                "endTimeMs": "210"
+            },
+            {
+                "startTimeMs": "210",
+                "words": "DIAMANT",
+                "endTimeMs": "236"
+            },
+            {
+                "startTimeMs": "684",
+                "words": "C'EST",
+                "endTimeMs": "815"
+            },
+            {
+                "startTimeMs": "815",
+                "words": "DE",
+                "endTimeMs": "868"
+            },
+            {
+                "startTimeMs": "868",
+                "words": "LEAU",
+                "endTimeMs": "894"
+            },
+            {
+                "startTimeMs": "1342",
+                "words": "COMME",
+                "endTimeMs": "1500"
+            },
+            {
+                "startTimeMs": "1500",
+                "words": "DE",
+                "endTimeMs": "1631"
+            },
+            {
+                "startTimeMs": "1631",
+                "words": "L'EVIAN",
+                "endTimeMs": "1657"
+            },
+            {
+                "startTimeMs": "1657",
+                "words": "J'SUIS",
+                "endTimeMs": "2184"
+            },
+            {
+                "startTimeMs": "2184",
+                "words": "COMME",
+                "endTimeMs": "2342"
+            },
+            {
+                "startTimeMs": "2342",
+                "words": "LE",
+                "endTimeMs": "2421"
+            },
+            {
+                "startTimeMs": "2921",
+                "words": "CUIRASSE",
+                "endTimeMs": "2947"
+            },
+            {
+                "startTimeMs": "2947",
+                "words": "T'ES",
+                "endTimeMs": "2973"
+            },
+            {
+                "startTimeMs": "2973",
+                "words": "COMME",
+                "endTimeMs": "3131"
+            },
+            {
+                "startTimeMs": "3131",
+                "words": "LE",
+                "endTimeMs": "3210"
+            },
+            {
+                "startTimeMs": "3210",
+                "words": "DEVIANT",
+                "endTimeMs": "3236"
+            }
+        ]
+    },
+    {
+        "sentence": "Tous mes habits sentent les Caliplates on sip le lin ils sniffent la mariquette ",
+        "words": [
+            {
+                "startTimeMs": "3921",
+                "words": "TOUS",
+                "endTimeMs": "4000"
+            },
+            {
+                "startTimeMs": "4000",
+                "words": "MES",
+                "endTimeMs": "4157"
+            },
+            {
+                "startTimeMs": "4157",
+                "words": "HABITS",
+                "endTimeMs": "4447"
+            },
+            {
+                "startTimeMs": "4447",
+                "words": "SENTENT",
+                "endTimeMs": "4473"
+            },
+            {
+                "startTimeMs": "4973",
+                "words": "LES",
+                "endTimeMs": "5131"
+            },
+            {
+                "startTimeMs": "5368",
+                "words": "CALIPLATES",
+                "endTimeMs": "5394"
+            },
+            {
+                "startTimeMs": "5394",
+                "words": "ON",
+                "endTimeMs": "5447"
+            },
+            {
+                "startTimeMs": "5447",
+                "words": "SIP",
+                "endTimeMs": "5684"
+            },
+            {
+                "startTimeMs": "5684",
+                "words": "LE",
+                "endTimeMs": "5868"
+            },
+            {
+                "startTimeMs": "6210",
+                "words": "LIN",
+                "endTimeMs": "6315"
+            },
+            {
+                "startTimeMs": "6657",
+                "words": "ILS",
+                "endTimeMs": "6868"
+            },
+            {
+                "startTimeMs": "6868",
+                "words": "SNIFFENT",
+                "endTimeMs": "6894"
+            },
+            {
+                "startTimeMs": "6894",
+                "words": "LA",
+                "endTimeMs": "7051"
+            },
+            {
+                "startTimeMs": "7394",
+                "words": "MARIQUETTE",
+                "endTimeMs": "7421"
+            }
+        ]
+    },
+    {
+        "sentence": "2024 Porsche Panamera 4",
+        "words": [
+            {
+                "startTimeMs": "7421",
+                "words": "2024",
+                "endTimeMs": "7447"
+            },
+            {
+                "startTimeMs": "7447",
+                "words": "PORSCHE",
+                "endTimeMs": "7473"
+            },
+            {
+                "startTimeMs": "7473",
+                "words": "PANAMERA",
+                "endTimeMs": "7500"
+            },
+            {
+                "startTimeMs": "7815",
+                "words": "4",
+                "endTimeMs": "7842"
+            }
+        ]
+    },
+    {
+        "sentence": "Espagne Suisse des toseina et des makas ",
+        "words": [
+            {
+                "startTimeMs": "7842",
+                "words": "ESPAGNE",
+                "endTimeMs": "8131"
+            },
+            {
+                "startTimeMs": "8973",
+                "words": "SUISSE",
+                "endTimeMs": "9236"
+            },
+            {
+                "startTimeMs": "9236",
+                "words": "DES",
+                "endTimeMs": "9342"
+            },
+            {
+                "startTimeMs": "9789",
+                "words": "TOSEINA",
+                "endTimeMs": "9815"
+            },
+            {
+                "startTimeMs": "9815",
+                "words": "ET",
+                "endTimeMs": "9868"
+            },
+            {
+                "startTimeMs": "9868",
+                "words": "DES",
+                "endTimeMs": "10026"
+            },
+            {
+                "startTimeMs": "10236",
+                "words": "MAKAS",
+                "endTimeMs": "10263"
+            }
+        ]
+    },
+    {
+        "sentence": "Ahah ils ont cru quon etait des singes negro quon etait des macaques",
+        "words": [
+            {
+                "startTimeMs": "10263",
+                "words": "AHAH",
+                "endTimeMs": "10394"
+            },
+            {
+                "startTimeMs": "11710",
+                "words": "ILS",
+                "endTimeMs": "11842"
+            },
+            {
+                "startTimeMs": "11842",
+                "words": "ONT",
+                "endTimeMs": "11921"
+            },
+            {
+                "startTimeMs": "11921",
+                "words": "CRU",
+                "endTimeMs": "12026"
+            },
+            {
+                "startTimeMs": "12184",
+                "words": "QUON",
+                "endTimeMs": "12210"
+            },
+            {
+                "startTimeMs": "12210",
+                "words": "ETAIT",
+                "endTimeMs": "12368"
+            },
+            {
+                "startTimeMs": "12368",
+                "words": "DES",
+                "endTimeMs": "12473"
+            },
+            {
+                "startTimeMs": "12473",
+                "words": "SINGES",
+                "endTimeMs": "12684"
+            },
+            {
+                "startTimeMs": "12684",
+                "words": "NEGRO",
+                "endTimeMs": "12868"
+            },
+            {
+                "startTimeMs": "13026",
+                "words": "QUON",
+                "endTimeMs": "13052"
+            },
+            {
+                "startTimeMs": "13052",
+                "words": "ETAIT",
+                "endTimeMs": "13210"
+            },
+            {
+                "startTimeMs": "13210",
+                "words": "DES",
+                "endTimeMs": "13289"
+            },
+            {
+                "startTimeMs": "13289",
+                "words": "MACAQUES",
+                "endTimeMs": "13315"
+            }
+        ]
+    },
+    {
+        "sentence": "Envois lcash petasse envois les skalapes rien que jmonte comme si jfais dlescalade ",
+        "words": [
+            {
+                "startTimeMs": "13631",
+                "words": "ENVOIS",
+                "endTimeMs": "13657"
+            },
+            {
+                "startTimeMs": "13657",
+                "words": "LCASH",
+                "endTimeMs": "13684"
+            },
+            {
+                "startTimeMs": "13684",
+                "words": "PETASSE",
+                "endTimeMs": "13710"
+            },
+            {
+                "startTimeMs": "13710",
+                "words": "ENVOIS",
+                "endTimeMs": "13736"
+            },
+            {
+                "startTimeMs": "14526",
+                "words": "LES",
+                "endTimeMs": "14657"
+            },
+            {
+                "startTimeMs": "14657",
+                "words": "SKALAPES",
+                "endTimeMs": "14684"
+            },
+            {
+                "startTimeMs": "14684",
+                "words": "RIEN",
+                "endTimeMs": "14842"
+            },
+            {
+                "startTimeMs": "15526",
+                "words": "QUE",
+                "endTimeMs": "15631"
+            },
+            {
+                "startTimeMs": "15631",
+                "words": "JMONTE",
+                "endTimeMs": "15657"
+            },
+            {
+                "startTimeMs": "16026",
+                "words": "COMME",
+                "endTimeMs": "16157"
+            },
+            {
+                "startTimeMs": "16157",
+                "words": "SI",
+                "endTimeMs": "16315"
+            },
+            {
+                "startTimeMs": "16315",
+                "words": "JFAIS",
+                "endTimeMs": "16342"
+            },
+            {
+                "startTimeMs": "16342",
+                "words": "DLESCALADE",
+                "endTimeMs": "16368"
+            }
+        ]
+    },
+    {
+        "sentence": "On tcroit pas negro remballes tes salades jconsomme plus dessence quun cadillac escalade ",
+        "words": [
+            {
+                "startTimeMs": "16973",
+                "words": "ON",
+                "endTimeMs": "17131"
+            },
+            {
+                "startTimeMs": "17131",
+                "words": "TCROIT",
+                "endTimeMs": "17157"
+            },
+            {
+                "startTimeMs": "17157",
+                "words": "PAS",
+                "endTimeMs": "17500"
+            },
+            {
+                "startTimeMs": "17500",
+                "words": "NEGRO",
+                "endTimeMs": "17789"
+            },
+            {
+                "startTimeMs": "18263",
+                "words": "REMBALLES",
+                "endTimeMs": "18289"
+            },
+            {
+                "startTimeMs": "18289",
+                "words": "TES",
+                "endTimeMs": "18394"
+            },
+            {
+                "startTimeMs": "18394",
+                "words": "SALADES",
+                "endTimeMs": "18421"
+            },
+            {
+                "startTimeMs": "18421",
+                "words": "JCONSOMME",
+                "endTimeMs": "18447"
+            },
+            {
+                "startTimeMs": "18447",
+                "words": "PLUS",
+                "endTimeMs": "18605"
+            },
+            {
+                "startTimeMs": "18789",
+                "words": "DESSENCE",
+                "endTimeMs": "18815"
+            },
+            {
+                "startTimeMs": "18815",
+                "words": "QUUN",
+                "endTimeMs": "18842"
+            },
+            {
+                "startTimeMs": "19473",
+                "words": "CADILLAC",
+                "endTimeMs": "19894"
+            },
+            {
+                "startTimeMs": "19894",
+                "words": "ESCALADE",
+                "endTimeMs": "20263"
+            }
+        ]
+    },
+    {
+        "sentence": "Et jfais cque jveux avec la prod s/o fenix jsuis tombe en amour avec la drogue ",
+        "words": [
+            {
+                "startTimeMs": "20657",
+                "words": "ET",
+                "endTimeMs": "20763"
+            },
+            {
+                "startTimeMs": "20763",
+                "words": "JFAIS",
+                "endTimeMs": "20789"
+            },
+            {
+                "startTimeMs": "20789",
+                "words": "CQUE",
+                "endTimeMs": "20815"
+            },
+            {
+                "startTimeMs": "21342",
+                "words": "JVEUX",
+                "endTimeMs": "21368"
+            },
+            {
+                "startTimeMs": "21368",
+                "words": "AVEC",
+                "endTimeMs": "21631"
+            },
+            {
+                "startTimeMs": "21631",
+                "words": "LA",
+                "endTimeMs": "21736"
+            },
+            {
+                "startTimeMs": "21736",
+                "words": "PROD",
+                "endTimeMs": "21894"
+            },
+            {
+                "startTimeMs": "22078",
+                "words": "S/O",
+                "endTimeMs": "22105"
+            },
+            {
+                "startTimeMs": "22105",
+                "words": "FENIX",
+                "endTimeMs": "22447"
+            },
+            {
+                "startTimeMs": "22447",
+                "words": "JSUIS",
+                "endTimeMs": "22473"
+            },
+            {
+                "startTimeMs": "22473",
+                "words": "TOMBE",
+                "endTimeMs": "22605"
+            },
+            {
+                "startTimeMs": "22868",
+                "words": "EN",
+                "endTimeMs": "22921"
+            },
+            {
+                "startTimeMs": "22921",
+                "words": "AMOUR",
+                "endTimeMs": "23078"
+            },
+            {
+                "startTimeMs": "23078",
+                "words": "AVEC",
+                "endTimeMs": "23315"
+            },
+            {
+                "startTimeMs": "23315",
+                "words": "LA",
+                "endTimeMs": "23447"
+            },
+            {
+                "startTimeMs": "23447",
+                "words": "DROGUE",
+                "endTimeMs": "23657"
+            }
+        ]
+    },
+    {
+        "sentence": "667 ekip shoreline mafia mon poignee cest comme ta dacia",
+        "words": [
+            {
+                "startTimeMs": "24184",
+                "words": "667",
+                "endTimeMs": "24210"
+            },
+            {
+                "startTimeMs": "24210",
+                "words": "EKIP",
+                "endTimeMs": "24236"
+            },
+            {
+                "startTimeMs": "24657",
+                "words": "SHORELINE",
+                "endTimeMs": "25078"
+            },
+            {
+                "startTimeMs": "25078",
+                "words": "MAFIA",
+                "endTimeMs": "25394"
+            },
+            {
+                "startTimeMs": "25526",
+                "words": "MON",
+                "endTimeMs": "25657"
+            },
+            {
+                "startTimeMs": "25789",
+                "words": "POIGNEE",
+                "endTimeMs": "25973"
+            },
+            {
+                "startTimeMs": "25973",
+                "words": "CEST",
+                "endTimeMs": "26210"
+            },
+            {
+                "startTimeMs": "26315",
+                "words": "COMME",
+                "endTimeMs": "26552"
+            },
+            {
+                "startTimeMs": "26552",
+                "words": "TA",
+                "endTimeMs": "26710"
+            },
+            {
+                "startTimeMs": "26710",
+                "words": "DACIA",
+                "endTimeMs": "27157"
+            }
+        ]
+    }
+]

@@ -1,0 +1,532 @@
+[
+    {
+        "startTimeMs": "0",
+        "words": "MON",
+        "endTimeMs": "240"
+    },
+    {
+        "startTimeMs": "240",
+        "words": "DIAMANT",
+        "endTimeMs": "270"
+    },
+    {
+        "startTimeMs": "780",
+        "words": "C'EST",
+        "endTimeMs": "930"
+    },
+    {
+        "startTimeMs": "930",
+        "words": "DE",
+        "endTimeMs": "990"
+    },
+    {
+        "startTimeMs": "990",
+        "words": "LEAU",
+        "endTimeMs": "1020"
+    },
+    {
+        "startTimeMs": "1530",
+        "words": "COMME",
+        "endTimeMs": "1710"
+    },
+    {
+        "startTimeMs": "1710",
+        "words": "DE",
+        "endTimeMs": "1860"
+    },
+    {
+        "startTimeMs": "1860",
+        "words": "L'EVIAN",
+        "endTimeMs": "1890"
+    },
+    {
+        "startTimeMs": "1890",
+        "words": "J'SUIS",
+        "endTimeMs": "2490"
+    },
+    {
+        "startTimeMs": "2490",
+        "words": "COMME",
+        "endTimeMs": "2670"
+    },
+    {
+        "startTimeMs": "2670",
+        "words": "LE",
+        "endTimeMs": "2760"
+    },
+    {
+        "startTimeMs": "3330",
+        "words": "CUIRASSE",
+        "endTimeMs": "3360"
+    },
+    {
+        "startTimeMs": "3360",
+        "words": "T'ES",
+        "endTimeMs": "3390"
+    },
+    {
+        "startTimeMs": "3390",
+        "words": "COMME",
+        "endTimeMs": "3570"
+    },
+    {
+        "startTimeMs": "3570",
+        "words": "LE",
+        "endTimeMs": "3660"
+    },
+    {
+        "startTimeMs": "3660",
+        "words": "DEVIANT",
+        "endTimeMs": "3690"
+    },
+    {
+        "startTimeMs": "4470",
+        "words": "TOUS",
+        "endTimeMs": "4560"
+    },
+    {
+        "startTimeMs": "4560",
+        "words": "MES",
+        "endTimeMs": "4740"
+    },
+    {
+        "startTimeMs": "4740",
+        "words": "HABITS",
+        "endTimeMs": "5070"
+    },
+    {
+        "startTimeMs": "5070",
+        "words": "SENTENT",
+        "endTimeMs": "5100"
+    },
+    {
+        "startTimeMs": "5670",
+        "words": "LES",
+        "endTimeMs": "5850"
+    },
+    {
+        "startTimeMs": "6120",
+        "words": "CALIPLATES",
+        "endTimeMs": "6150"
+    },
+    {
+        "startTimeMs": "6150",
+        "words": "ON",
+        "endTimeMs": "6210"
+    },
+    {
+        "startTimeMs": "6210",
+        "words": "SIP",
+        "endTimeMs": "6480"
+    },
+    {
+        "startTimeMs": "6480",
+        "words": "LE",
+        "endTimeMs": "6690"
+    },
+    {
+        "startTimeMs": "7080",
+        "words": "LIN",
+        "endTimeMs": "7200"
+    },
+    {
+        "startTimeMs": "7590",
+        "words": "ILS",
+        "endTimeMs": "7830"
+    },
+    {
+        "startTimeMs": "7830",
+        "words": "SNIFFENT",
+        "endTimeMs": "7860"
+    },
+    {
+        "startTimeMs": "7860",
+        "words": "LA",
+        "endTimeMs": "8039"
+    },
+    {
+        "startTimeMs": "8430",
+        "words": "MARIQUETTE",
+        "endTimeMs": "8460"
+    },
+    {
+        "startTimeMs": "8460",
+        "words": "2024",
+        "endTimeMs": "8490"
+    },
+    {
+        "startTimeMs": "8490",
+        "words": "PORSCHE",
+        "endTimeMs": "8520"
+    },
+    {
+        "startTimeMs": "8520",
+        "words": "PANAMERA",
+        "endTimeMs": "8550"
+    },
+    {
+        "startTimeMs": "8910",
+        "words": "4",
+        "endTimeMs": "8940"
+    },
+    {
+        "startTimeMs": "8940",
+        "words": "ESPAGNE",
+        "endTimeMs": "9270"
+    },
+    {
+        "startTimeMs": "10230",
+        "words": "SUISSE",
+        "endTimeMs": "10530"
+    },
+    {
+        "startTimeMs": "10530",
+        "words": "DES",
+        "endTimeMs": "10650"
+    },
+    {
+        "startTimeMs": "11160",
+        "words": "TOSEINA",
+        "endTimeMs": "11190"
+    },
+    {
+        "startTimeMs": "11190",
+        "words": "ET",
+        "endTimeMs": "11250"
+    },
+    {
+        "startTimeMs": "11250",
+        "words": "DES",
+        "endTimeMs": "11430"
+    },
+    {
+        "startTimeMs": "11670",
+        "words": "MAKAS",
+        "endTimeMs": "11700"
+    },
+    {
+        "startTimeMs": "11700",
+        "words": "AHAH",
+        "endTimeMs": "11850"
+    },
+    {
+        "startTimeMs": "13350",
+        "words": "ILS",
+        "endTimeMs": "13500"
+    },
+    {
+        "startTimeMs": "13500",
+        "words": "ONT",
+        "endTimeMs": "13590"
+    },
+    {
+        "startTimeMs": "13590",
+        "words": "CRU",
+        "endTimeMs": "13710"
+    },
+    {
+        "startTimeMs": "13890",
+        "words": "QUON",
+        "endTimeMs": "13920"
+    },
+    {
+        "startTimeMs": "13920",
+        "words": "ETAIT",
+        "endTimeMs": "14100"
+    },
+    {
+        "startTimeMs": "14100",
+        "words": "DES",
+        "endTimeMs": "14220"
+    },
+    {
+        "startTimeMs": "14220",
+        "words": "SINGES",
+        "endTimeMs": "14460"
+    },
+    {
+        "startTimeMs": "14460",
+        "words": "NEGRO",
+        "endTimeMs": "14670"
+    },
+    {
+        "startTimeMs": "14850",
+        "words": "QUON",
+        "endTimeMs": "14880"
+    },
+    {
+        "startTimeMs": "14880",
+        "words": "ETAIT",
+        "endTimeMs": "15060"
+    },
+    {
+        "startTimeMs": "15060",
+        "words": "DES",
+        "endTimeMs": "15150"
+    },
+    {
+        "startTimeMs": "15150",
+        "words": "MACAQUES",
+        "endTimeMs": "15180"
+    },
+    {
+        "startTimeMs": "15540",
+        "words": "ENVOIS",
+        "endTimeMs": "15570"
+    },
+    {
+        "startTimeMs": "15570",
+        "words": "LCASH",
+        "endTimeMs": "15600"
+    },
+    {
+        "startTimeMs": "15600",
+        "words": "PETASSE",
+        "endTimeMs": "15630"
+    },
+    {
+        "startTimeMs": "15630",
+        "words": "ENVOIS",
+        "endTimeMs": "15660"
+    },
+    {
+        "startTimeMs": "16560",
+        "words": "LES",
+        "endTimeMs": "16710"
+    },
+    {
+        "startTimeMs": "16710",
+        "words": "SKALAPES",
+        "endTimeMs": "16740"
+    },
+    {
+        "startTimeMs": "16740",
+        "words": "RIEN",
+        "endTimeMs": "16920"
+    },
+    {
+        "startTimeMs": "17700",
+        "words": "QUE",
+        "endTimeMs": "17820"
+    },
+    {
+        "startTimeMs": "17820",
+        "words": "JMONTE",
+        "endTimeMs": "17850"
+    },
+    {
+        "startTimeMs": "18270",
+        "words": "COMME",
+        "endTimeMs": "18420"
+    },
+    {
+        "startTimeMs": "18420",
+        "words": "SI",
+        "endTimeMs": "18600"
+    },
+    {
+        "startTimeMs": "18600",
+        "words": "JFAIS",
+        "endTimeMs": "18630"
+    },
+    {
+        "startTimeMs": "18630",
+        "words": "DLESCALADE",
+        "endTimeMs": "18660"
+    },
+    {
+        "startTimeMs": "19350",
+        "words": "ON",
+        "endTimeMs": "19530"
+    },
+    {
+        "startTimeMs": "19530",
+        "words": "TCROIT",
+        "endTimeMs": "19560"
+    },
+    {
+        "startTimeMs": "19560",
+        "words": "PAS",
+        "endTimeMs": "19950"
+    },
+    {
+        "startTimeMs": "19950",
+        "words": "NEGRO",
+        "endTimeMs": "20280"
+    },
+    {
+        "startTimeMs": "20820",
+        "words": "REMBALLES",
+        "endTimeMs": "20850"
+    },
+    {
+        "startTimeMs": "20850",
+        "words": "TES",
+        "endTimeMs": "20970"
+    },
+    {
+        "startTimeMs": "20970",
+        "words": "SALADES",
+        "endTimeMs": "21000"
+    },
+    {
+        "startTimeMs": "21000",
+        "words": "JCONSOMME",
+        "endTimeMs": "21030"
+    },
+    {
+        "startTimeMs": "21030",
+        "words": "PLUS",
+        "endTimeMs": "21210"
+    },
+    {
+        "startTimeMs": "21420",
+        "words": "DESSENCE",
+        "endTimeMs": "21450"
+    },
+    {
+        "startTimeMs": "21450",
+        "words": "QUUN",
+        "endTimeMs": "21480"
+    },
+    {
+        "startTimeMs": "22200",
+        "words": "CADILLAC",
+        "endTimeMs": "22680"
+    },
+    {
+        "startTimeMs": "22680",
+        "words": "ESCALADE",
+        "endTimeMs": "23100"
+    },
+    {
+        "startTimeMs": "23550",
+        "words": "ET",
+        "endTimeMs": "23670"
+    },
+    {
+        "startTimeMs": "23670",
+        "words": "JFAIS",
+        "endTimeMs": "23700"
+    },
+    {
+        "startTimeMs": "23700",
+        "words": "CQUE",
+        "endTimeMs": "23730"
+    },
+    {
+        "startTimeMs": "24330",
+        "words": "JVEUX",
+        "endTimeMs": "24360"
+    },
+    {
+        "startTimeMs": "24360",
+        "words": "AVEC",
+        "endTimeMs": "24660"
+    },
+    {
+        "startTimeMs": "24660",
+        "words": "LA",
+        "endTimeMs": "24780"
+    },
+    {
+        "startTimeMs": "24780",
+        "words": "PROD",
+        "endTimeMs": "24960"
+    },
+    {
+        "startTimeMs": "25170",
+        "words": "S/O",
+        "endTimeMs": "25200"
+    },
+    {
+        "startTimeMs": "25200",
+        "words": "FENIX",
+        "endTimeMs": "25590"
+    },
+    {
+        "startTimeMs": "25590",
+        "words": "JSUIS",
+        "endTimeMs": "25620"
+    },
+    {
+        "startTimeMs": "25620",
+        "words": "TOMBE",
+        "endTimeMs": "25770"
+    },
+    {
+        "startTimeMs": "26070",
+        "words": "EN",
+        "endTimeMs": "26130"
+    },
+    {
+        "startTimeMs": "26130",
+        "words": "AMOUR",
+        "endTimeMs": "26310"
+    },
+    {
+        "startTimeMs": "26310",
+        "words": "AVEC",
+        "endTimeMs": "26580"
+    },
+    {
+        "startTimeMs": "26580",
+        "words": "LA",
+        "endTimeMs": "26730"
+    },
+    {
+        "startTimeMs": "26730",
+        "words": "DROGUE",
+        "endTimeMs": "26970"
+    },
+    {
+        "startTimeMs": "27570",
+        "words": "667",
+        "endTimeMs": "27600"
+    },
+    {
+        "startTimeMs": "27600",
+        "words": "EKIP",
+        "endTimeMs": "27630"
+    },
+    {
+        "startTimeMs": "28110",
+        "words": "SHORELINE",
+        "endTimeMs": "28590"
+    },
+    {
+        "startTimeMs": "28590",
+        "words": "MAFIA",
+        "endTimeMs": "28950"
+    },
+    {
+        "startTimeMs": "29100",
+        "words": "MON",
+        "endTimeMs": "29250"
+    },
+    {
+        "startTimeMs": "29400",
+        "words": "POIGNEE",
+        "endTimeMs": "29610"
+    },
+    {
+        "startTimeMs": "29610",
+        "words": "CEST",
+        "endTimeMs": "29880"
+    },
+    {
+        "startTimeMs": "30000",
+        "words": "COMME",
+        "endTimeMs": "30270"
+    },
+    {
+        "startTimeMs": "30270",
+        "words": "TA",
+        "endTimeMs": "30450"
+    },
+    {
+        "startTimeMs": "30450",
+        "words": "DACIA",
+        "endTimeMs": "30960"
+    }
+]
