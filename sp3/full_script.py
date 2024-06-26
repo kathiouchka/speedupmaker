@@ -18,7 +18,7 @@ import traceback
 
 # Constants
 SPEED_FACTOR = 1.14
-DURATION = 31
+DURATION = 10
 FONT_PATH = "../Montserrat-Bold.ttf"
 VIDEO_BACKGROUND_DIR = "./video_background"
 FILE_EXTENSIONS_TO_CLEAN = [".mp3", ".json"]
@@ -26,6 +26,7 @@ FRENCH_STOPWORDS = ["le", "la", "les", "un", "une", "des", "et", "à", "de", "en
 # Word and line colors
 WORD_COLORS = ["#FFD700", "#FF6347", "#32CD32"]
 LINE_COLORS = ["#F5F5F5", "#EDEDED", "#E5E5E5", "#DCDCDC", "#D3D3D3", "#C8C8C8"]
+MIN_WORD_DURATION = 0.1  # Minimum duration for each word in seconds
 
 
 def is_valid_word(word):
@@ -157,32 +158,47 @@ def draw_text_with_shadow(draw, pos, text, font, fill_color, shadow_color=(0, 0,
         draw.text((x + offset_x, y + offset_y), text, font=font, fill=shadow_color)
     draw.text((x, y), text, font=font, fill=fill_color)
 
-def draw_line(draw, sentence, words_info, font, y_text, current_time, color_index, line_color_index):
+def draw_line(draw, sentence, words_info, font, y_text, current_time, color_index, line_color_index, highlighted_words_count):
     line_words = sentence.split(" ")
     line_width = draw.textsize(sentence, font=font)[0]
     x_text = (1080 - line_width) / 2
 
+    word_occurrence = {}  # Dictionary to track occurrences of each word
+
     for word in line_words:
-        if '♪' in word:
-            word = word.replace('♪', '')
+        if 'âª' in word:
+            word = word.replace('âª', '')
+
+        clean_word_in_sentence = clean_word(word)
+        if clean_word_in_sentence not in word_occurrence:
+            word_occurrence[clean_word_in_sentence] = 0
+        else:
+            word_occurrence[clean_word_in_sentence] += 1
 
         is_highlighted = False
-        for word_info in words_info:
+        for i, word_info in enumerate(words_info):
             start_time = int(word_info['startTimeMs']) / 1000
             end_time = int(word_info['endTimeMs']) / 1000
 
+            clean_word_info = clean_word(word_info['words'])
+
             # Check if the word matches by text and if the current time falls within its start and end time
-            if word.upper() == word_info['words'] and start_time <= current_time < end_time:
-                is_highlighted = True
-                break
+            if clean_word_in_sentence == clean_word_info and start_time <= current_time < end_time:
+                # Check if this occurrence of the word has been highlighted
+                if word_occurrence[clean_word_in_sentence] == highlighted_words_count.get((clean_word_in_sentence, start_time), 0):
+                    is_highlighted = True
+                    highlighted_words_count[(clean_word_in_sentence, start_time)] = highlighted_words_count.get((clean_word_in_sentence, start_time), 0) + 1
+                    print(f"Highlighting word: '{word}' from {start_time}s to {end_time}s")
+                    break
 
         word_font = font
         fill_color = WORD_COLORS[color_index % len(WORD_COLORS)] if is_highlighted else LINE_COLORS[line_color_index % len(LINE_COLORS)]
 
         draw_text_with_shadow(draw, (x_text, y_text), word + " ", word_font, fill_color, "black")
         x_text += draw.textsize(word + " ", word_font)[0]
-
-    
+        
+        
+        
 def create_lyrics_video(lyrics_file, video_file, audio_file, color_index):
     try:
         with open(lyrics_file) as f:
@@ -197,6 +213,8 @@ def create_lyrics_video(lyrics_file, video_file, audio_file, color_index):
 
         font_path = FONT_PATH
         img_clips = []
+
+        highlighted_words_count = {}
 
         for sentence_data in lyric_data:
             sentence = sentence_data['sentence']
@@ -224,7 +242,7 @@ def create_lyrics_video(lyrics_file, video_file, audio_file, color_index):
                 y_text = (1920 - len(wrap_lines) * draw.textsize("Sample text", font=font)[1]) / 2
 
                 for line in wrap_lines:
-                    draw_line(draw, line, words_info, font, y_text, word_start_s, color_index, line_color_index)
+                    draw_line(draw, line, words_info, font, y_text, word_start_s, color_index, line_color_index, highlighted_words_count)
                     y_text += draw.textsize(line, font=font)[1]
 
                 img_clip = ImageClip(np.array(image), duration=word_duration).set_position('center').set_start(word_start_s)
@@ -425,7 +443,7 @@ def main():
         args = parser.parse_args()
 
         if args.process_videos:
-            process_videos('./video_background', 60)  # Assuming default path and duration
+            process_videos('./video_background', 10)  # Assuming default path and duration
             return
         if args.create_lyrics_video:
             color_index = random.randint(0, len(WORD_COLORS) - 1)
