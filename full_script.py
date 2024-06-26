@@ -17,8 +17,8 @@ from moviepy.video.fx.all import resize
 import traceback
 
 # Constants
-SPEED_FACTOR = 1.14
-DURATION = 10
+SPEED_FACTOR = 1.2
+DURATION = 26
 FONT_PATH = "../Montserrat-Bold.ttf"
 VIDEO_BACKGROUND_DIR = "./video_background"
 FILE_EXTENSIONS_TO_CLEAN = [".mp3", ".json"]
@@ -26,7 +26,6 @@ FRENCH_STOPWORDS = ["le", "la", "les", "un", "une", "des", "et", "à", "de", "en
 # Word and line colors
 WORD_COLORS = ["#FFD700", "#FF6347", "#32CD32"]
 LINE_COLORS = ["#F5F5F5", "#EDEDED", "#E5E5E5", "#DCDCDC", "#D3D3D3", "#C8C8C8"]
-MIN_WORD_DURATION = 0.1  # Minimum duration for each word in seconds
 
 
 def is_valid_word(word):
@@ -166,8 +165,8 @@ def draw_line(draw, sentence, words_info, font, y_text, current_time, color_inde
     word_occurrence = {}  # Dictionary to track occurrences of each word
 
     for word in line_words:
-        if 'âª' in word:
-            word = word.replace('âª', '')
+        if 'Ã¢ÂÂª' in word:
+            word = word.replace('Ã¢ÂÂª', '')
 
         clean_word_in_sentence = clean_word(word)
         if clean_word_in_sentence not in word_occurrence:
@@ -197,8 +196,6 @@ def draw_line(draw, sentence, words_info, font, y_text, current_time, color_inde
         draw_text_with_shadow(draw, (x_text, y_text), word + " ", word_font, fill_color, "black")
         x_text += draw.textsize(word + " ", word_font)[0]
         
-        
-        
 def create_lyrics_video(lyrics_file, video_file, audio_file, color_index):
     try:
         with open(lyrics_file) as f:
@@ -214,7 +211,7 @@ def create_lyrics_video(lyrics_file, video_file, audio_file, color_index):
         font_path = FONT_PATH
         img_clips = []
 
-        highlighted_words_count = {}
+        highlighted_words_count = {}  # Initialize as an empty dictionary
 
         for sentence_data in lyric_data:
             sentence = sentence_data['sentence']
@@ -250,15 +247,13 @@ def create_lyrics_video(lyrics_file, video_file, audio_file, color_index):
             color_index += 1
             line_color_index += 1
 
-
         final_clip = CompositeVideoClip([video] + img_clips, size=video.size)
         final_clip.set_duration(video_duration).write_videofile('final_output.mp4', codec='libx264', threads=4)
 
     except Exception as e:
         print(f"Error creating lyrics video: {e}")
-        traceback.print_exc()
-
-
+        traceback.print_exc()     
+        
 def clean_word(word):
     """Function to clean and standardize words for matching."""
     # Retain hyphens but remove other non-word characters and convert to uppercase
